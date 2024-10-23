@@ -146,18 +146,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
                         <!-- Add this inside your form -->
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <label for="salesAgreement">Sales Agreement: </label>
-                                <div class="input-group">
-                                    <input type="file" name="salesAgreement" id="salesAgreement" accept="image/*,.pdf">
-                                    <span class="input-group-btn">
-                                        <label class="btn btn-primary"><span class="glyphicon glyphicon-upload"
-                                                aria-hidden="true"></span></label>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="row">
                             <div class="form-group col-xs-12">
                                 <label for="logbook">Logbook: </label>
@@ -172,7 +161,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         </div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <label for="receipt">Receipt: </label>
+                                <label for="salesAgreement">Sales Agreement: </label>
+                                <div class="input-group">
+                                    <input type="file" name="salesAgreement" id="salesAgreement" accept="image/*,.pdf">
+                                    <span class="input-group-btn">
+                                        <label class="btn btn-primary"><span class="glyphicon glyphicon-upload"
+                                                aria-hidden="true"></span></label>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <label for="receipt">ID NO/KRA PIN: </label>
                                 <div class="input-group">
                                     <input type="file" name="receipt" id="receipt" accept="image/*,.pdf">
                                     <span class="input-group-btn">
